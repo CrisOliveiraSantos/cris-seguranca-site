@@ -1,0 +1,267 @@
+.root {
+    -fx-font-family: "Segoe UI", "Bahnschrift", sans-serif;
+    -fx-background-color: linear-gradient(to bottom right, #090B12, #0F1630 40%, #131122 75%, #07080D);
+}
+
+.main-scroll,
+.main-scroll > .viewport {
+    -fx-background-color: transparent;
+}
+
+.app-shell {
+    -fx-background-color: linear-gradient(to bottom right, #090B12, #0F1630 40%, #131122 75%, #07080D);
+}
+
+.page-root {
+    -fx-max-width: 1200;
+    -fx-alignment: top-center;
+}
+
+.card {
+    -fx-background-color: linear-gradient(to bottom right, rgba(23, 27, 43, 0.95), rgba(13, 17, 29, 0.92));
+    -fx-background-radius: 18;
+    -fx-border-radius: 18;
+    -fx-border-color: rgba(212, 175, 55, 0.24);
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.45), 30, 0.15, 0, 8);
+}
+
+.hero {
+    -fx-background-color: linear-gradient(to bottom right, rgba(16, 20, 36, 0.96), rgba(10, 13, 24, 0.97));
+    -fx-border-color: linear-gradient(to right, rgba(212, 175, 55, 0.5), rgba(29, 78, 216, 0.45));
+    -fx-border-width: 1.2;
+}
+
+.badge {
+    -fx-background-color: rgba(212, 175, 55, 0.14);
+    -fx-border-color: rgba(212, 175, 55, 0.45);
+    -fx-border-radius: 999;
+    -fx-background-radius: 999;
+    -fx-padding: 8 14;
+    -fx-text-fill: #f6d585;
+    -fx-font-size: 12px;
+    -fx-font-weight: 700;
+    -fx-letter-spacing: 1px;
+}
+
+.hero-title {
+    -fx-text-fill: #f5f8ff;
+    -fx-font-size: 44px;
+    -fx-font-weight: 800;
+}
+
+.hero-phrase {
+    -fx-text-fill: #f4d06f;
+    -fx-font-size: 30px;
+    -fx-font-weight: 700;
+}
+
+.hero-subtitle {
+    -fx-text-fill: #bfc8e6;
+    -fx-font-size: 17px;
+    -fx-line-spacing: 2px;
+}
+
+.cta {
+    -fx-cursor: hand;
+    -fx-padding: 12 20;
+    -fx-font-size: 14px;
+    -fx-font-weight: 700;
+    -fx-background-radius: 12;
+    -fx-border-radius: 12;
+}
+
+.cta-primary {
+    -fx-background-color: linear-gradient(to right, #d4af37, #f3d37c);
+    -fx-text-fill: #121420;
+}
+
+.cta-primary:hover {
+    -fx-effect: dropshadow(gaussian, rgba(243, 211, 124, 0.45), 26, 0.3, 0, 0);
+}
+
+.cta-ghost {
+    -fx-background-color: rgba(34, 56, 100, 0.45);
+    -fx-border-color: rgba(91, 132, 255, 0.65);
+    -fx-border-width: 1;
+    -fx-text-fill: #d6e4ff;
+}
+
+.cta-ghost:hover {
+    -fx-background-color: rgba(45, 71, 124, 0.62);
+}
+
+.cta-large {
+    -fx-padding: 14 24;
+    -fx-font-size: 15px;
+}
+
+.mini-stat {
+    -fx-background-color: rgba(255, 255, 255, 0.03);
+    -fx-background-radius: 12;
+    -fx-border-radius: 12;
+    -fx-border-color: rgba(255, 255, 255, 0.07);
+    -fx-max-width: 320;
+}
+
+.mini-stat-title {
+    -fx-text-fill: #86b2ff;
+    -fx-font-size: 14px;
+    -fx-font-weight: 700;
+}
+
+.mini-stat-desc {
+    -fx-text-fill: #b9c7ea;
+    -fx-font-size: 12px;
+}
+
+.section-title {
+    -fx-text-fill: #f6f7fb;
+    -fx-font-size: 24px;
+    -fx-font-weight: 800;
+}
+
+.section-text {
+    -fx-text-fill: #c7d0eb;
+    -fx-font-size: 15px;
+    -fx-line-spacing: 3px;
+}
+
+.sobre-card {
+    -fx-border-color: rgba(212, 175, 55, 0.23);
+}
+
+.problema-card {
+    -fx-border-color: rgba(255, 111, 111, 0.28);
+}
+
+.solucao-card {
+    -fx-border-color: rgba(104, 168, 255, 0.3);
+}
+
+.qualificacoes-card {
+    -fx-border-color: rgba(153, 126, 255, 0.34);
+}
+
+.subcard {
+    -fx-background-color: rgba(255, 255, 255, 0.03);
+    -fx-background-radius: 14;
+    -fx-border-radius: 14;
+    -fx-border-color: rgba(255, 255, 255, 0.08);
+}
+
+.subcard-title {
+    -fx-text-fill: #f3dd9c;
+    -fx-font-size: 18px;
+    -fx-font-weight: 800;
+}
+
+.subcard-mini-title {
+    -fx-text-fill: #b9cdfa;
+    -fx-font-size: 13px;
+    -fx-font-weight: 700;
+}
+
+.bloco-formacao {
+    -fx-border-color: rgba(212, 175, 55, 0.28);
+}
+
+.bloco-cursos {
+    -fx-border-color: rgba(120, 166, 255, 0.27);
+}
+
+.bloco-lista {
+    -fx-border-color: rgba(163, 126, 255, 0.25);
+}
+
+.bloco-tecnologia {
+    -fx-border-color: rgba(86, 185, 196, 0.3);
+}
+
+.bloco-ia {
+    -fx-border-color: rgba(255, 180, 92, 0.3);
+    -fx-background-color: linear-gradient(to right, rgba(33, 26, 45, 0.72), rgba(30, 41, 64, 0.62));
+}
+
+.bloco-posicionamento {
+    -fx-border-color: rgba(212, 175, 55, 0.42);
+    -fx-background-color: linear-gradient(to right, rgba(28, 24, 18, 0.85), rgba(42, 33, 12, 0.68));
+}
+
+.curso-chip {
+    -fx-background-color: rgba(60, 96, 170, 0.25);
+    -fx-border-color: rgba(123, 169, 255, 0.58);
+    -fx-border-radius: 999;
+    -fx-background-radius: 999;
+    -fx-padding: 8 12;
+    -fx-text-fill: #dce9ff;
+    -fx-font-size: 13px;
+    -fx-font-weight: 600;
+}
+
+.tech-highlight {
+    -fx-text-fill: #a6f0f9;
+    -fx-font-size: 14px;
+    -fx-font-weight: 700;
+    -fx-line-spacing: 2px;
+}
+
+.ia-item {
+    -fx-text-fill: #f2dcad;
+    -fx-font-size: 14px;
+    -fx-font-weight: 600;
+}
+
+.ia-gain-pill {
+    -fx-background-color: rgba(255, 200, 122, 0.18);
+    -fx-border-color: rgba(255, 200, 122, 0.52);
+    -fx-border-radius: 999;
+    -fx-background-radius: 999;
+    -fx-padding: 7 12;
+    -fx-text-fill: #ffe6b5;
+    -fx-font-size: 13px;
+    -fx-font-weight: 700;
+}
+
+.qualificacao-bullet {
+    -fx-text-fill: #c8b1ff;
+    -fx-font-size: 14px;
+    -fx-font-weight: 700;
+}
+
+.beneficios-card {
+    -fx-border-color: rgba(150, 209, 121, 0.3);
+}
+
+.benefit-bullet {
+    -fx-text-fill: #f4d06f;
+    -fx-font-size: 18px;
+    -fx-font-weight: 700;
+}
+
+.benefit-text {
+    -fx-text-fill: #d2daf2;
+    -fx-font-size: 15px;
+}
+
+.contato-card {
+    -fx-background-color: linear-gradient(to right, rgba(22, 26, 42, 0.95), rgba(13, 24, 44, 0.93));
+    -fx-border-color: rgba(212, 175, 55, 0.38);
+}
+
+.contato-info {
+    -fx-text-fill: #e4ebff;
+    -fx-font-size: 18px;
+    -fx-font-weight: 600;
+}
+
+.final-card {
+    -fx-background-color: linear-gradient(to right, rgba(22, 22, 30, 0.93), rgba(44, 35, 18, 0.8));
+    -fx-border-color: rgba(212, 175, 55, 0.44);
+}
+
+.final-text {
+    -fx-text-fill: #ffe7a6;
+    -fx-font-size: 26px;
+    -fx-font-weight: 800;
+    -fx-text-alignment: center;
+}
