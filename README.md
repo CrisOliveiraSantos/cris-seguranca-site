@@ -1,6 +1,6 @@
-# Cris Seguranca JavaFX
+# Captação de Clientes
 
-Aplicacao JavaFX com visual premium para captacao de clientes de servicos de regularizacao profissional no SIRPWEB.
+Aplicação JavaFX com visual premium para captação de clientes de serviços de regularização profissional no SIRPWEB.
 
 ## Requisitos
 
